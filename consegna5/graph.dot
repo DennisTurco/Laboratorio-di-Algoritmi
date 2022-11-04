@@ -1,0 +1,159 @@
+digraph g
+{ 
+node [shape=none]
+rankdir="LR"
+node_0_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.5"; style=filled; label = "Idx: 0, dist: 0" ];
+node_0_25 -> node_1_25 [ label="50", len=5 ]
+node_0_25 -> node_5_25 [ label="50", len=5 ]
+node_1_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.5625"; style=filled; label = "Idx: 1, dist: 50" ];
+node_1_25 -> node_2_25 [ label="50", len=5 ]
+node_1_25 -> node_6_25 [ label="50", len=5 ]
+node_1_25 -> node_0_25 [ label="50", len=5 ]
+node_1_25 -> node_0_25 [ color=blue, penwidth=5, len=0.1 ]
+node_2_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.625"; style=filled; label = "Idx: 2, dist: 100" ];
+node_2_25 -> node_3_25 [ label="50", len=5 ]
+node_2_25 -> node_7_25 [ label="50", len=5 ]
+node_2_25 -> node_1_25 [ label="50", len=5 ]
+node_2_25 -> node_1_25 [ color=blue, penwidth=5, len=0.1 ]
+node_3_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6875"; style=filled; label = "Idx: 3, dist: 150" ];
+node_3_25 -> node_4_25 [ label="50", len=5 ]
+node_3_25 -> node_8_25 [ label="50", len=5 ]
+node_3_25 -> node_2_25 [ label="50", len=5 ]
+node_3_25 -> node_2_25 [ color=blue, penwidth=5, len=0.1 ]
+node_4_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.875"; style=filled; label = "Idx: 4, dist: 300" ];
+node_4_25 -> node_9_25 [ label="50", len=5 ]
+node_4_25 -> node_3_25 [ label="50", len=5 ]
+node_4_25 -> node_9_25 [ color=blue, penwidth=5, len=5 ]
+node_5_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.5625"; style=filled; label = "Idx: 5, dist: 50" ];
+node_5_25 -> node_6_25 [ label="50", len=5 ]
+node_5_25 -> node_10_25 [ label="50", len=5 ]
+node_5_25 -> node_0_25 [ label="50", len=5 ]
+node_5_25 -> node_0_25 [ color=blue, penwidth=5, len=0.1 ]
+node_6_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.625"; style=filled; label = "Idx: 6, dist: 100" ];
+node_6_25 -> node_7_25 [ label="50", len=5 ]
+node_6_25 -> node_11_25 [ label="50", len=5 ]
+node_6_25 -> node_1_25 [ label="50", len=5 ]
+node_6_25 -> node_5_25 [ label="50", len=5 ]
+node_6_25 -> node_1_25 [ color=blue, penwidth=5, len=0.1 ]
+node_7_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6875"; style=filled; label = "Idx: 7, dist: 150" ];
+node_7_25 -> node_8_25 [ label="50", len=5 ]
+node_7_25 -> node_12_25 [ label="50", len=5 ]
+node_7_25 -> node_2_25 [ label="50", len=5 ]
+node_7_25 -> node_6_25 [ label="50", len=5 ]
+node_7_25 -> node_6_25 [ color=blue, penwidth=5, len=0.1 ]
+node_8_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.75"; style=filled; label = "Idx: 8, dist: 200" ];
+node_8_25 -> node_9_25 [ label="50", len=5 ]
+node_8_25 -> node_13_25 [ label="50", len=5 ]
+node_8_25 -> node_3_25 [ label="50", len=5 ]
+node_8_25 -> node_7_25 [ label="50", len=5 ]
+node_8_25 -> node_7_25 [ color=blue, penwidth=5, len=0.1 ]
+node_9_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8125"; style=filled; label = "Idx: 9, dist: 250" ];
+node_9_25 -> node_14_25 [ label="50", len=5 ]
+node_9_25 -> node_4_25 [ label="50", len=5 ]
+node_9_25 -> node_8_25 [ label="50", len=5 ]
+node_9_25 -> node_8_25 [ color=blue, penwidth=5, len=0.1 ]
+node_10_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.625"; style=filled; label = "Idx: 10, dist: 100" ];
+node_10_25 -> node_11_25 [ label="50", len=5 ]
+node_10_25 -> node_15_25 [ label="50", len=5 ]
+node_10_25 -> node_5_25 [ label="50", len=5 ]
+node_10_25 -> node_5_25 [ color=blue, penwidth=5, len=0.1 ]
+node_11_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6875"; style=filled; label = "Idx: 11, dist: 150" ];
+node_11_25 -> node_12_25 [ label="50", len=5 ]
+node_11_25 -> node_16_25 [ label="50", len=5 ]
+node_11_25 -> node_6_25 [ label="50", len=5 ]
+node_11_25 -> node_10_25 [ label="50", len=5 ]
+node_11_25 -> node_6_25 [ color=blue, penwidth=5, len=0.1 ]
+node_12_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.75"; style=filled; label = "Idx: 12, dist: 200" ];
+node_12_25 -> node_13_25 [ label="50", len=5 ]
+node_12_25 -> node_17_25 [ label="50", len=5 ]
+node_12_25 -> node_7_25 [ label="50", len=5 ]
+node_12_25 -> node_11_25 [ label="50", len=5 ]
+node_12_25 -> node_7_25 [ color=blue, penwidth=5, len=0.1 ]
+node_13_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8125"; style=filled; label = "Idx: 13, dist: 250" ];
+node_13_25 -> node_14_25 [ label="50", len=5 ]
+node_13_25 -> node_18_25 [ label="50", len=5 ]
+node_13_25 -> node_8_25 [ label="50", len=5 ]
+node_13_25 -> node_12_25 [ label="50", len=5 ]
+node_13_25 -> node_8_25 [ color=blue, penwidth=5, len=0.1 ]
+node_14_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.875"; style=filled; label = "Idx: 14, dist: 300" ];
+node_14_25 -> node_19_25 [ label="50", len=5 ]
+node_14_25 -> node_9_25 [ label="50", len=5 ]
+node_14_25 -> node_13_25 [ label="50", len=5 ]
+node_14_25 -> node_9_25 [ color=blue, penwidth=5, len=0.1 ]
+node_15_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.6875"; style=filled; label = "Idx: 15, dist: 150" ];
+node_15_25 -> node_16_25 [ label="50", len=5 ]
+node_15_25 -> node_20_25 [ label="50", len=5 ]
+node_15_25 -> node_10_25 [ label="50", len=5 ]
+node_15_25 -> node_10_25 [ color=blue, penwidth=5, len=0.1 ]
+node_16_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.75"; style=filled; label = "Idx: 16, dist: 200" ];
+node_16_25 -> node_17_25 [ label="50", len=5 ]
+node_16_25 -> node_21_25 [ label="50", len=5 ]
+node_16_25 -> node_11_25 [ label="50", len=5 ]
+node_16_25 -> node_15_25 [ label="50", len=5 ]
+node_16_25 -> node_15_25 [ color=blue, penwidth=5, len=0.1 ]
+node_17_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8125"; style=filled; label = "Idx: 17, dist: 250" ];
+node_17_25 -> node_18_25 [ label="50", len=5 ]
+node_17_25 -> node_22_25 [ label="50", len=5 ]
+node_17_25 -> node_12_25 [ label="50", len=5 ]
+node_17_25 -> node_16_25 [ label="50", len=5 ]
+node_17_25 -> node_16_25 [ color=blue, penwidth=5, len=0.1 ]
+node_18_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.875"; style=filled; label = "Idx: 18, dist: 300" ];
+node_18_25 -> node_19_25 [ label="50", len=5 ]
+node_18_25 -> node_23_25 [ label="50", len=5 ]
+node_18_25 -> node_13_25 [ label="50", len=5 ]
+node_18_25 -> node_17_25 [ label="50", len=5 ]
+node_18_25 -> node_13_25 [ color=blue, penwidth=5, len=0.1 ]
+node_19_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9375"; style=filled; label = "Idx: 19, dist: 350" ];
+node_19_25 -> node_24_25 [ label="50", len=5 ]
+node_19_25 -> node_14_25 [ label="50", len=5 ]
+node_19_25 -> node_18_25 [ label="50", len=5 ]
+node_19_25 -> node_14_25 [ color=blue, penwidth=5, len=0.1 ]
+node_20_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.75"; style=filled; label = "Idx: 20, dist: 200" ];
+node_20_25 -> node_21_25 [ label="50", len=5 ]
+node_20_25 -> node_15_25 [ label="50", len=5 ]
+node_20_25 -> node_15_25 [ color=blue, penwidth=5, len=0.1 ]
+node_21_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.8125"; style=filled; label = "Idx: 21, dist: 250" ];
+node_21_25 -> node_22_25 [ label="50", len=5 ]
+node_21_25 -> node_16_25 [ label="50", len=5 ]
+node_21_25 -> node_20_25 [ label="50", len=5 ]
+node_21_25 -> node_16_25 [ color=blue, penwidth=5, len=0.1 ]
+node_22_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.875"; style=filled; label = "Idx: 22, dist: 300" ];
+node_22_25 -> node_23_25 [ label="50", len=5 ]
+node_22_25 -> node_17_25 [ label="50", len=5 ]
+node_22_25 -> node_21_25 [ label="50", len=5 ]
+node_22_25 -> node_21_25 [ color=blue, penwidth=5, len=0.1 ]
+node_23_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 0.9375"; style=filled; label = "Idx: 23, dist: 350" ];
+node_23_25 -> node_24_25 [ label="50", len=5 ]
+node_23_25 -> node_18_25 [ label="50", len=5 ]
+node_23_25 -> node_22_25 [ label="50", len=5 ]
+node_23_25 -> node_22_25 [ color=blue, penwidth=5, len=0.1 ]
+node_24_25
+[ shape = oval; penwidth = 4; fillcolor = "0.0 0.0 1"; style=filled; label = "Idx: 24, dist: 400" ];
+node_24_25 -> node_19_25 [ label="50", len=5 ]
+node_24_25 -> node_23_25 [ label="50", len=5 ]
+node_24_25 -> node_19_25 [ color=blue, penwidth=5, len=0.1 ]
+}

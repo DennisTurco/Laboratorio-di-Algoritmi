@@ -1,0 +1,1 @@
+cercare anche qualche algoritmo nlog(n) e lineare

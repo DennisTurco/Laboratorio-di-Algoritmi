@@ -1,0 +1,35 @@
+digraph g
+{ 
+node [shape=none]
+rankdir="LR"
+node_0_0
+[ shape = oval; label = "Idx: 0, val: 0 index: 0 lowlink 0" ];
+node_0_0 -> node_1_0 [  color=gray ]
+node_1_0
+[ shape = oval; label = "Idx: 1, val: 2 index: 1 lowlink 0" ];
+node_1_0 -> node_2_0 [  color=gray ]
+node_2_0
+[ shape = oval; label = "Idx: 2, val: 4 index: 2 lowlink 0" ];
+node_2_0 -> node_0_0 [  color=gray ]
+node_3_0
+[ shape = oval; label = "Idx: 3, val: 6 index: 3 lowlink 3" ];
+node_3_0 -> node_4_0 [  color=gray ]
+node_3_0 -> node_2_0 [  color=gray ]
+node_3_0 -> node_1_0 [  color=gray ]
+node_4_0
+[ shape = oval; label = "Idx: 4, val: 8 index: 4 lowlink 3" ];
+node_4_0 -> node_5_0 [  color=gray ]
+node_4_0 -> node_3_0 [  color=gray ]
+node_5_0
+[ shape = oval; label = "Idx: 5, val: 10 index: 5 lowlink 5" ];
+node_5_0 -> node_6_0 [  color=gray ]
+node_5_0 -> node_2_0 [  color=gray ]
+node_6_0
+[ shape = oval; label = "Idx: 6, val: 12 index: 6 lowlink 5" ];
+node_6_0 -> node_5_0 [  color=gray ]
+node_7_0
+[ shape = oval; label = "Idx: 7, val: 14 index: 7 lowlink 7" ];
+node_7_0 -> node_6_0 [  color=gray ]
+node_7_0 -> node_4_0 [  color=gray ]
+node_7_0 -> node_7_0 [  color=gray ]
+}
