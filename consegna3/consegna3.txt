@@ -1,0 +1,22 @@
+Partendo dal codice del max Heap, costruisci un algoritmo per fare heapsort:
+
+1- trasforma max heap in min heap (con le operazioni heap_insert e remove_min, non serve decrease_key) FATTO
+
+2- crea l'algoritmo per il sorting di un array random in input
+
+3- misura le letture in memoria e confronta con una implementazione di quicksort (ricicla il codice di quicksort con il lancio su 10 array di dimensione da 100 a 1000, ripeti 1000 volte con array casuali)
+
+4- produci un grafico del confronto letture quicksort - heapsort
+
+Consegna il codice c e il foglio xls con i grafici di confronto
+
+
+NOTE ULTERIORI:
+1) implementare un min heap con alcune operazioni
+2)
+3) il punto 3 non é altro che una statistica
+
+
+stare attenti a non fare troppe letture quindi ceracare una soluzione simile a quella adottata dalla consegna 1.
+
+partire dalla struttura del quick sort come codice e poi inserire il codice che serve a gestire inserimento ed estrazione.
